@@ -38,7 +38,7 @@ const BallCanvas = ({ icon }) => {
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls enableZoom={false} autoRotate /> {/* Enable auto rotation for a dynamic effect */}
+        <OrbitControls enableZoom={false} /> {/* Enable auto rotation for a dynamic effect */}
         <ambientLight intensity={1.5} /> {/* Increase overall lighting intensity */}
         <Ball imgURL={icon} />
       </Suspense>
