@@ -45,7 +45,7 @@ const Contact = () => {
           to_email: "saifmd238@gmail.com",
           message: form.message,
         },
-        '26G_xvAr3vRDLZu15'
+        import.meta.env.VITE_PUBLIC_KEY
       )
       .then(
         () => {
