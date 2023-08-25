@@ -7,8 +7,7 @@ import Experience from './Experience';
 import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
-import FloatingIcons from './FloatingIcons';
-
+import FloatingSocialIcons from './FloatingIcons';
 
 export {
   Hero,
@@ -18,10 +17,10 @@ export {
   Experience,
   Works,
   Feedbacks,
-  FloatingIcons,
+  Contact,
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
   StarsCanvas,
-  Contact,
+  FloatingSocialIcons
 }
