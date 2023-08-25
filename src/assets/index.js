@@ -20,6 +20,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import java from "./tech/java.svg";
+import mysql from "./tech/mysql.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -29,6 +31,16 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import fibotalk from "./company/Fibotalk.png";
+import cn from "./company/Coding_Ninjas.png";
+import authapp from "./NodeJS_Authent.png";
+import placement from "./Placement_app.png";
+import Spin from "./Spinning_game.png";
+import Vision from "./Vision_pro.png";
+import ipod from "./ipod.png";
+import cynthia from "./cynthia_clone.png";
+import expense from "./expense.png";
+import blog from "./blog.png";
 
 export {
   logo,
@@ -59,4 +71,17 @@ export {
   carrent,
   jobit,
   tripguide,
+  fibotalk,
+  cn,
+  authapp,
+  placement,
+  Spin,
+  Vision,
+  ipod,
+  cynthia,
+  expense,
+  blog,
+  java,
+  mysql
+  
 };

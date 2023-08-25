@@ -11,6 +11,9 @@ import { slideIn } from "../utils/motion";
 //service_97sr02i
 //QI9qbp-Rnk1fY3T3_
 
+
+
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -21,12 +24,12 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
-    const { target } = e;
-    const { name, value } = target;
+    
+    const { name, value } = e.target;
 
     setForm({
       ...form,
-      [name]: value,
+      [name]: value
     });
   };
 
@@ -42,7 +45,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Saif",
           from_email: form.email,
-          to_email: "saifmd238@gmail.com",
+          to_email: "saifmd518.ms@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_PUBLIC_KEY
