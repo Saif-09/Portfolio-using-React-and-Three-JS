@@ -199,6 +199,7 @@ const projects = [
             
         ],
         image: expense,
+        live_link: "https://expense-tracker-saif.netlify.app/",
         source_code_link: "https://github.com/Saif-09/Expense-Tracker",
     },
     {
@@ -221,6 +222,7 @@ const projects = [
             
         ],
         image: summizy,
+        live_link:"https://summizy.netlify.app/",
         source_code_link: "https://github.com/Saif-09/Summizy-Ai-Article-Summarizer",
     },
     {
@@ -250,6 +252,7 @@ const projects = [
             },
         ],
         image: authapp,
+        live_link:"https://nodejs-authentication-service.onrender.com/",
         source_code_link: "https://github.com/Saif-09/NodeJS-Authentication",
     },
     {
@@ -271,6 +274,7 @@ const projects = [
             },
         ],
         image: blog,
+        live_link:"https://blogsapp-react.netlify.app/",
         source_code_link: "https://github.com/Saif-09/Blogs-App",
     },
     {
@@ -304,6 +308,7 @@ const projects = [
             },
         ],
         image: cynthia,
+        live_link:"https://cynthia-ugwu-website-clone.netlify.app/",
         source_code_link: "https://github.com/Saif-09/Cynthia-Ugwu-Website-Clone",
     },
     {
@@ -325,6 +330,7 @@ const projects = [
             },
         ],
         image: placement,
+        live_link:"https://placement-cell-webapplication.onrender.com/",
         source_code_link: "https://github.com/Saif-09/Placement_Cell-CN-Project",
     },
     {
@@ -342,6 +348,7 @@ const projects = [
             },
         ],
         image: ipod,
+        live_link:"https://i-pod-react-app.netlify.app/",
         source_code_link: "https://github.com/Saif-09/i-pod-react-project",
     },
     {
@@ -375,6 +382,7 @@ const projects = [
             },
         ],
         image: Vision,
+        live_link:"https://apple-vision-pro-clone.netlify.app/",
         source_code_link: "https://github.com/Saif-09/Clone-Apple-Vison-Website",
     },
     {
@@ -397,6 +405,7 @@ const projects = [
             
         ],
         image: Spin,
+        live_link:"https://sprightly-dieffenbachia-17f999.netlify.app/",
         source_code_link: "https://github.com/Saif-09/Spinning-Game",
     },
     
