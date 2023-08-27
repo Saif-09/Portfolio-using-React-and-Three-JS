@@ -25,7 +25,7 @@ const Hero = () => {
         <div className='absolute bottom-6 w-full flex justify-center items-center'>
           
         <div className='bg-gradient-to-t from-[#050816] to-[#161822] p-6 rounded-3xl border-t-2 shadow-lg border-gradient-border'>
-        <img src="src\assets\Desktop_pic.png" alt="Image" className='mt-4' />
+        <img src="https://i.ibb.co/QmhQ4zK/Desktop-pic.jpg" alt="Image" className='mt-4' />
           <h2 className='text-lg font-semibold text-white mt-8'>Let's Explore...</h2>
           <p className='text-gray-300 mt-2'>Discover more about me and my work.</p>
           

@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo1 from "./logo1.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -41,9 +41,10 @@ import ipod from "./ipod.png";
 import cynthia from "./cynthia_clone.png";
 import expense from "./expense.png";
 import blog from "./blog.png";
+import summizy from './summizy.png';
 
 export {
-  logo,
+  logo1,
   backend,
   creator,
   mobile,
@@ -82,6 +83,7 @@ export {
   expense,
   blog,
   java,
-  mysql
+  mysql,
+  summizy
   
 };

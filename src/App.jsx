@@ -3,19 +3,20 @@ import { About, Contact, Experience, Feedbacks, Hero, Tech, Works, StarsCanvas, 
 
 
 const App = () => {
+  const isNotMobile = window.innerWidth > 500;
 
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
-          <FloatingSocialIcons /> 
           <Hero />
         </div>
+        <FloatingSocialIcons />
         <About />
         <Experience />
         <Tech />
-        <Works />
+        {isNotMobile ? <Works /> : ( <div></div>)}
         {/* <Feedbacks /> */}
         {/* <MemoryGame /> */}
         <div className="relative z-0">

@@ -13,16 +13,12 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     fibotalk,
     cn,
     authapp,
     placement,
+    summizy,
     Spin,
     Vision,
     ipod,
@@ -55,7 +51,7 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Fronend Developer",
+        title: "Frontend Developer",
         icon: web,
     },
     {
@@ -204,6 +200,28 @@ const projects = [
         ],
         image: expense,
         source_code_link: "https://github.com/Saif-09/Expense-Tracker",
+    },
+    {
+        name: "Summizy AI Article Summerizer",
+        description:
+            "Developed this Article Summerizer using React, Redux, and Tailwind CSS. By seamlessly integrating Rapid API, Summizy takes any lengthy article URL and transforms it into a concise and easily digestible summary. Empowered by React's dynamic user interface, Redux's state management, and Tailwind CSS's sleek styling, ",
+        tags: [
+            {
+                name: "React",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Redux",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Tailwind CSS",
+                color: "green-text-gradient",
+            },
+            
+        ],
+        image: summizy,
+        source_code_link: "https://github.com/Saif-09/Summizy-Ai-Article-Summarizer",
     },
     {
         name: "Authentication Service",
